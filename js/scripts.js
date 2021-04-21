@@ -10,6 +10,8 @@ document.addEventListener("DOMContentLoaded",function(){
         }
     });
 
+
+
     document.querySelector("#btn1").onclick = function(){
         alert("Hi, there!! Work is still in progress. Thanks for Understanding")
     }
