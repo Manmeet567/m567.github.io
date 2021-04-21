@@ -10,10 +10,18 @@ document.addEventListener("DOMContentLoaded",function(){
         }
     });
 
+    document.querySelector("#btn1").onclick = function(){
+        alert("Hi, there!! Work is still in progress. Thanks for Understanding")
+    }
+
+    document.querySelector("#btn2").onclick = function(){
+        alert("Hi, there! CV's construction is still in progress. Wait until it finishes. Thanks for Understanding")
+    }
+
     document.querySelector(".btn").onclick = function(){
         const nam = document.querySelector(".nameZone").value;
 
-        alert(`Hi, ${nam}.Work is still in progress.You will be notified on whatsapp when construction will be finished. Thanks for understanding`);
+        alert(`Hi, ${nam}. Work is still in progress. You will be notified on whatsapp when construction will be finished.  Thanks for understanding`);
     }
 
     $(".goTop").click(function(){
